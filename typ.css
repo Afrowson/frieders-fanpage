@@ -1,0 +1,53 @@
+
+.bannertyp{
+	background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/bannertyp.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 130px 0;
+	text-align: left;
+
+}
+
+.bannertyp h1{
+	color: #e5e5e5;
+	font-size: 40px;
+	margin: 5%;
+}
+
+.bannertyp p{
+	color: #e5e5e5;
+	font-size: 20px;
+	margin: 5%;
+}
+
+.container{
+	width: 900px;
+	margin: auto;
+}
+
+.card-white-typ{
+	background: white;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+	border-radius: 5px;
+	/*width: 80%;*/
+	text-align: center;
+	padding: 20px;
+	margin: 15px;
+	position: cover;
+}
+
+.card-white-typ img{
+	width: 180px;
+	height: 180px;
+	object-fit: cover;
+}
+
+#card-white {
+	font-size: 10px;
+}
+
+.cards-typ{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 16px;
+}
