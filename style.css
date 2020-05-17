@@ -35,7 +35,7 @@ a {
 }
 
 .banner{
-	background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.6)), url('Frieders Fanpage/images/banner1.jpg');
+	background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.6)), url('./FriedersFanpage/images/banner1.jpg');
 	background-size: cover;
 	background-position: center;
 	padding: 150px;
